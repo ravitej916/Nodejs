@@ -1,0 +1,19 @@
+# List of files to be excluded while sending build context to docker deamon #
+
+# IntelliJ #
+.idea
+*.iml
+*coverage.xml
+
+# Nodejs #
+node_modules/
+npm-debug.log
+
+# Sonar #
+.sonar/
+
+#build
+dist/*
+
+# Git #
+.git
