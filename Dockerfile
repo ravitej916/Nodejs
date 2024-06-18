@@ -1,4 +1,4 @@
-# Use the official Node.js image as the base image
+# Using the official Node.js image as the base image
 FROM node:18 AS build
 
 # Set the working directory
